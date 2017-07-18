@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "gitbook serve ./content ./gh-pages",
+     "deploy": "node ./scripts/deploy-gh-pages.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/yuer1314/matianli-note/issues"
   },
-  "homepage": "https://github.com/yuer1314/matianli-note#readme"
+  "homepage": "https://github.com/yuer1314/matianli-note#readme",
+  "dependencies": {
+    "gh-pages": "^1.0.0"
+  }
 }
